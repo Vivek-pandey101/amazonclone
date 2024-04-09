@@ -136,30 +136,11 @@ span a{
   overflow: hidden;
 }
 
-.slider-container {
+.image-container {
   width: 100%;
   height: 100%;
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  width: 400%; /* Adjusted to fit all slides */
-  transition: transform 0.5s ease;
-}
-
-.slide {
-  flex: 0 0 25%; /* Adjusted for four slides */
-}
-
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Maintain aspect ratio */
-}
-
-.slide {
-  position: relative;
+  backgroung-image: url("./images/hero_image.jpg");
+  background-size: cover;
 }
 
 .hero-section {
